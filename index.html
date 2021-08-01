@@ -1,19 +1,42 @@
 <!-- Cuando se trabaja con HTML se hace uso de etiquetas-->
-
-<!DOCTYPE html> <!-- Se indica que se esta trabajando con documentos HTML-->
+<!DOCTYPE html>
+<!-- Se indica que se esta trabajando con documentos HTML-->
 <html lang="en">
+  <!-- La etiqueta HEAD es el encabeza del HTML aqui ira todo lo que se utilizara y el titulo de la pag-->
 
-<!-- La etiqueta HEAD es el encabeza del HTML aqui ira todo lo que se utilizara y el titulo de la pag-->
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso HTML</title> <!--Titulo que se visualizara en la pestaña del navegador-->
-</head>
+  <head>
+    <!--A una etiqueta se le puede agregar atributos y valores. En este caso se agrega el atributo "charset" con valor "utf8" para acentos-->
+    <!--Meta == metainformación. Sirve para aportar información sobre el documento. -->
+    <meta charset="UTF-8" />
+    <!--Indica soporte para navegadores Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Indica soporte responsivo para dispositivos moviles-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Titulo que se visualizara en la pestaña del navegador-->
+    <title>Elemetos Básicos en HTML</title>
+  </head>
 
-<!--Todo lo que se agregue aqui si se visualiza en el HTML-->
-<body>
-    <h1>Curso de desarrollo web HTML </h1> <!--Heading == Titulo de nivel 1-->
-    <p>Primer ejemplo con HTML</p> <!--Etiqueta para agregar un parrafo-->
-</body>
+  <!--Todo lo que se agregue aqui si se visualiza en el HTML-->
+  <body>
+    <!--Heading == Titulo == h -->
+    <!--Parte de H1 hasta H6, estos se usa para titulos-->
+    <h1>Titulo H1</h1>
+    <h2>Titulo H2</h2>
+    <h3>Titulo H3</h3>
+    <h4>Titulo H4</h4>
+    <h5>Titulo H5</h5>
+    <h6>Titulo H6</h6>
+
+    <!--Paragraph == Parrafos == p -->
+    <p>Primer linea del parrafo.</p>
+    <!-- <br> es una etiqueta para saltos de linea -->
+    <br />
+    <!-- <hr/> es una etiqueta vacia que representa una línea horizontal. Para cambios de sección.-->
+    <hr />
+    <p>Segunda linea del parrafo.</p>
+
+    <!--Etiquetas para insertar links-->
+    <!--Dentro del "href" va la direccion a donde nos va a dirigir-->
+    <a href="https://www.facebook.com">Sitio de Facebook Inc</a>
+  </body>
 </html>
