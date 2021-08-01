@@ -20,7 +20,7 @@
   <body>
     <!--Heading == Titulo == h -->
     <!--Parte de H1 hasta H6, estos se usa para titulos-->
-    <h1>Titulo H1</h1>
+    <h1 style="color:pink">Titulo H1</h1>
     <h2>Titulo H2</h2>
     <h3>Titulo H3</h3>
     <h4>Titulo H4</h4>
@@ -30,13 +30,39 @@
     <!--Paragraph == Parrafos == p -->
     <p>Primer linea del parrafo.</p>
     <!-- <br> es una etiqueta para saltos de linea -->
-    <br />
+    <br/>
     <!-- <hr/> es una etiqueta vacia que representa una línea horizontal. Para cambios de sección.-->
-    <hr />
+    <hr/>
     <p>Segunda linea del parrafo.</p>
 
     <!--Etiquetas para insertar links-->
     <!--Dentro del "href" va la direccion a donde nos va a dirigir-->
-    <a href="https://www.facebook.com">Sitio de Facebook Inc</a>
+    <!--Anchor == enlace == a -->
+    <!-- "_blank" indica que el enlace se abrira en una nueva pestaña-->
+    <a href="https://www.facebook.com" target="_blank">Sitio de Facebook Inc</a>
+    <br/>
+    <a href="acercade.html">Redirección a la sección acerca De</a>
+
+    <!--Manejo de imagenes-->
+    <!--Se pueden agregar imagenes teniendolas de forma local o utilizando url de internet-->
+    <!--"src" = source == origen o fuente de la imagen-->
+    <!--"alt" proporciona un texto equivalente al objeto, en este caso las imagenes.-->
+    <!--Width == ancho-->
+    <!--Height == alto-->
+    <img src="img/img1.png" alt="Icono" width="100px" height="100px"/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCCo2lHBMHfZId8roxr5pe-uhGmbjqeYTZ3A&usqp=CAU" alt="Imagen JPG">
+
+    <!--Manejo de atributos HTML-->
+    <!--Title dentro de un objeto (img, parrafo, etc) aparecera el nombre que agreguemos cuando le pasamos el puntero-->
+    <img src="img/img1.png" alt="Icono" width="100px" height="100px" title="Icono Persona"/>
+    <!--El atributo "style" nos permite agregar estilos css al texto o modificar al elemento-->
+    <p title="Nuevo parrafo" style="color:blue">Este es un parrafo</p>
+    <!--Preformateado == pre. Representa texto preformateado.-->
+    <pre style="color:cyan">
+        Este es un
+        nuevo parrafo con la etiqueta
+        "pre"
+    </pre>
+
   </body>
 </html>
